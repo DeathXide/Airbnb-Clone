@@ -44,7 +44,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
 
         "
         >
-          Airbnb your Home
+          Host your Home
         </div>
         <div
           onClick={toggleopen}

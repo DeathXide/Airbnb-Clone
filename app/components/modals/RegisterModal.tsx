@@ -57,7 +57,7 @@ const RegisterModal = () => {
 
   const bodyContent = (
     <div className="flex flex-col gap-4">
-      <Heading title="Welcome to Aibnb" subtitle="Create an account" />
+      <Heading title="Welcome to Rentogo" subtitle="Create an account" />
       <Input
         id="email"
         label="Email"
