@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rentogo 
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Rentogo is a project that demonstrates full-stack proficiency, showcasing enhancements made to an Airbnb clone. The improvements include streamlined authentication, optimized media management, robust search functionality, property listings, and an immersive mapping experience. The project ensures a seamless user experience across devices through a responsive design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Highlights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Authentication:** Implemented streamlined authentication using NextAuth.js, enhancing security and user management.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Media Management:** Optimized media handling with Cloudinary for efficient storage and retrieval of property-related images.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Search Functionality:** Developed a robust search functionality to enable users to find properties based on various criteria, enhancing the overall user experience.
 
-## Learn More
+- **Property Listings:** Enhanced property listings with detailed information and images, providing users with comprehensive details for informed decision-making.
 
-To learn more about Next.js, take a look at the following resources:
+- **Immersive Mapping:** Integrated immersive mapping features to give users a visual representation of property locations, improving the browsing experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Responsive Design:** Ensured a seamless user experience across devices through the implementation of a responsive design using Next.js 13 and Tailwind CSS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+- Next.js 13
+- NextAuth.js
+- Cloudinary
+- Tailwind CSS
+- Prisma
+- MongoDB
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To explore the Rentogo project:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/rentogo.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd rentogo
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Set up the necessary environment variables for NextAuth.js, Cloudinary, Prisma, and MongoDB.
+
+5. Start the application:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open your browser and navigate to `http://localhost:3000` to experience the Rentogo application.
+
+## Contributing
+
+We welcome contributions to further enhance the Rentogo project. To contribute, follow these steps:
+
+1. Fork the project.
+2. Create a new branch for your feature: `git checkout -b feature/new-feature`.
+3. Commit your changes: `git commit -am 'Add new feature'`.
+4. Push to the branch: `git push origin feature/new-feature`.
+5. Submit a pull request.
+
+
+## Contact
+
+For any inquiries or support, please contact hrutuselar@gmail.com.
